@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[#08172b] to-[#01010a] px-4 py-16">
       <div className="max-w-2xl w-full bg-white/10 backdrop-blur-2xl rounded-3xl shadow-xl border border-blue-400/20 p-8 text-white">
         <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
-        <p className="mb-4">{"This Privacy Policy explains how Linked Digital (\"we\", \"us\", or \"our\") collects, uses, discloses, and safeguards your information when you visit our website and use our services. Please read this policy carefully to understand our views and practices regarding your personal data and how we will treat it."}</p>
+        <p className="mb-4">{"This Privacy Policy explains how Linked Digital (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, discloses, and safeguards your information when you visit our website and use our services. Please read this policy carefully to understand our views and practices regarding your personal data and how we will treat it."}</p>
 
         <h2 className="text-xl font-semibold mt-6 mb-2">1. Information We Collect</h2>
         <ul className="list-disc ml-6 mb-4">

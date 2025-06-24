@@ -125,7 +125,7 @@ export default function Home() {
             {/* Blue blurred glow */}
             <span className="absolute -top-24 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-blue-500/30 blur-3xl rounded-full -z-10" />
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-white text-center tracking-tight">Why Most E-com Brands Plateau</h2>
-            <p className="text-lg md:text-xl text-white/80 mb-8 text-center max-w-2xl font-medium">{"Most brands aren't struggling with traffic — they're struggling with what happens after someone visits their store."}</p>
+            <p className="text-lg md:text-xl text-white/80 mb-8 text-center max-w-2xl font-medium">Most brands aren&apos;t struggling with traffic — they&apos;re struggling with what happens after someone visits their store.</p>
             <ul className="relative z-10 space-y-5 text-white/90 text-base md:text-lg max-w-xl mx-auto mb-8">
               {["You're running ads, but profits aren't scaling with spend", "Repeat purchase rate is low, so you keep chasing new customers", "Your backend (email, SMS, retention) is under-optimized", "You're too busy running the business to build retention systems"].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -134,7 +134,7 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <p className="relative z-10 text-base md:text-lg text-white/70 mt-2 text-center max-w-xl mx-auto">{"We help you fix what's missing behind the scenes — so revenue scales without burning ad spend."}</p>
+            <p className="relative z-10 text-base md:text-lg text-white/70 mt-2 text-center max-w-xl mx-auto">We help you fix what's missing behind the scenes — so revenue scales without burning ad spend.</p>
           </section>
 
           {/* Trust / Visual Demo Section */}
