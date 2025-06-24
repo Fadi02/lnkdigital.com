@@ -12,21 +12,6 @@ const Navbar = () => (
   </div>
 );
 
-// Simple SVG blob background
-const BgVisual = () => (
-  <svg className="bg-visual w-full h-full fixed inset-0 -z-10" width="100%" height="100%" viewBox="0 0 1440 900" fill="none" xmlns="shttp://www.w3.org/2000/svg">
-    <defs>
-      <radialGradient id="bg1" cx="50%" cy="30%" r="80%" fx="50%" fy="30%" gradientTransform="rotate(10)">
-        <stop offset="0%" stopColor="#1e3a8a" stopOpacity="0.35" />
-        <stop offset="100%" stopColor="#01010a" stopOpacity="0.0" />
-      </radialGradient>
-    </defs>
-    <ellipse cx="720" cy="300" rx="700" ry="320" fill="url(#bg1)" />
-    <ellipse cx="300" cy="800" rx="400" ry="120" fill="#1e3a8a" fillOpacity="0.08" />
-    <ellipse cx="1200" cy="700" rx="300" ry="100" fill="#38bdf8" fillOpacity="0.06" />
-  </svg>
-);
-
 const processSteps = [
   {
     title: "Audit",
